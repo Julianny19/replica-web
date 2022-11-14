@@ -206,7 +206,56 @@ h1 {
       margin-right: 2%;
       
     }
+  } 
+  @media only screen and (max-width: 768px) {
+    .part1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .part2 {
+        margin-top: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+    .col1 {
+        padding: 10% 5%;
+        margin-right: 60%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    .col2 {
+        padding: 0%;
+        margin-left: 10%;
+    }
+    .col4 {
+        margin-right: 86%;
+        margin-bottom: 100%;
+    }
+    .img1 {
+        width: 80%;
+    } 
+    .img2 {
+        width: 50%;
+        height: 20%;
+    }
+    .text2 {
+        font-size: 100%;
+    }
+    .part3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .text3 {
+        font-size: 50%;
+    }
+    .descrip  {
+        font-size: 50%;
+    }
+    .icon {
+        font-size: 50%;
+    }
+    .col {
+        
+    }
   }
- @media screen {
-    
- }
