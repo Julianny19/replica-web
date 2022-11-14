@@ -192,7 +192,7 @@ h1 {
     position: absolute;
     z-index: -1;
     width: 30%;
-    height: 72%;
+    height: 65%;
     animation: slidein 2s infinite alternate;
   }
   
@@ -219,10 +219,9 @@ h1 {
     }
     .col1 {
         padding: 10% 5%;
-        margin-right: 60%;
     }
     h1 {
-        font-size: 200%;
+        font-size: 300%;
     }
     .col2 {
         padding: 0%;
@@ -234,28 +233,49 @@ h1 {
     }
     .img1 {
         width: 80%;
+        height: 50%;
     } 
+    .sub {
+        font-size: 100%;
+        margin-right: 20%;
+    }
     .img2 {
-        width: 50%;
-        height: 20%;
+        width: 70%;
+        height: 49%;
     }
     .text2 {
-        font-size: 100%;
+        font-size: 200%;
     }
     .part3 {
         display: flex;
         flex-direction: column;
     }
     .text3 {
-        font-size: 50%;
+        font-size: 100%;
     }
     .descrip  {
-        font-size: 50%;
+        font-size: 100%;
+        padding: 2% 20%;
     }
     .icon {
-        font-size: 50%;
+        font-size: 300%;
     }
-    .col {
-        
+    .nav {
+        grid-template-columns: 40% 20% 20% 20%;
+    }
+    .replica {
+        margin-top: 7%;
+        font-size: 100%;
+    }
+    .herramientas {
+        font-size: 70%;
+    }
+    .enviar {
+        font-size: 70%; 
+        margin-top: 10%;
+    }
+    .descarga {
+        margin-left: 5%;
+        font-size: 70%;
     }
   }
