@@ -86,6 +86,15 @@ body {
 h1 {
     font-family: Newsreader;
     font-size: 65px;
+    animation: slider 2s;
+}
+@keyframes slider{
+    from{
+        margin-bottom: 150%;
+    }
+    to{ 
+        margin-bottom: 0%;
+    }
 }
 .sub {
     font-family: kanit;
@@ -101,12 +110,15 @@ h1 {
     position: absolute;
     color: #f7f7f7;
     top: 35%;
-    left: 10%;
-    
+    left: 10%;   
 }
 .text2 {
     font-family: Newsreader;
-    font-size: 65px;
+    font-size: 400%;
+}
+.text2:hover {
+    transition: all 0.7s;
+    font-size: 440%;
 }
 .factoria {
     border: 2px solid #f7f7f7;
@@ -165,6 +177,11 @@ h1 {
     color: rgb(138, 68, 133);
     font-size: 330%;
 }
+.icon:hover {
+    transition: color 0.8s;
+    font-size: 400%;
+    color: #302f2f;
+}
 .text3 {
     font-size: 30px;
 }
@@ -187,27 +204,24 @@ h1 {
 .img1 {
     position: absolute;
     z-index: 1;
+    height: 65%;
 }
 .img2 {
     position: absolute;
     z-index: -1;
-    width: 30%;
+    width: 25%;
     height: 65%;
     animation: slidein 2s infinite alternate;
   }
-  
-  @keyframes slidein {
+@keyframes slidein {
     from {
-      margin-left: 2%;
-      
+      margin-left: 2%;   
     }
-  
     to {
       margin-right: 2%;
-      
     }
-  } 
-  @media only screen and (max-width: 768px) {
+} 
+@media only screen and (max-width: 768px) {
     .part1 {
         display: flex;
         flex-direction: column;
@@ -246,6 +260,10 @@ h1 {
     .text2 {
         font-size: 200%;
     }
+    .text2:hover{
+        transition: all 0.7s;
+        font-size: 220%;
+    }
     .part3 {
         display: flex;
         flex-direction: column;
@@ -278,4 +296,4 @@ h1 {
         margin-left: 5%;
         font-size: 70%;
     }
-  }
+}
